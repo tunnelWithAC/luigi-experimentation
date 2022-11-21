@@ -20,8 +20,7 @@ Please note the name of the virtual environment is referenced later and if you u
 ## Run hello world example
 
 ```commandline
-cd
-python -m luigi --module main HelloLuigi --local-scheduler
+python -m luigi --module hello_world.main HelloLuigi --local-scheduler
 ```
 **TODO break down cli args and add documentation
 
